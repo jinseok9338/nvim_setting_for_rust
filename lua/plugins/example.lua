@@ -11,12 +11,14 @@ if true then return {} end
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
+  {"catppuccin/nvim"},
+  { "shaunsingh/nord.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "catppuccin",
     },
   },
 
@@ -190,6 +192,7 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "rust-analyzer"
       },
     },
   },
